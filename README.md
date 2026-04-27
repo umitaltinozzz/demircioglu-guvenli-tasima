@@ -1,45 +1,65 @@
-# Demircioğlu Güvenli Taşıma
+<div align="center">
 
-Demircioğlu Güvenli Taşıma firması için geliştirilmiş kurumsal web sitesi. Modern, hızlı ve tamamen responsive bir React uygulamasıdır.
+# 🚛 Demircioğlu Güvenli Taşıma
 
-## Özellikler
+**Professional moving & transport company website**
 
-- Tam responsive tasarım (mobil, tablet, masaüstü)
-- Hero, Hizmetler, Hakkımızda, Neden Biz ve İletişim bölümleri
-- WhatsApp anlık iletişim butonu
-- Parallax tilt efektleri
+[![Live Site](https://img.shields.io/badge/Live%20Site-halisdemircioglunakliyat.com-blue?style=for-the-badge&logo=vercel)](https://www.halisdemircioglunakliyat.com/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
-## Teknoloji Yığını
+</div>
 
-| Teknoloji | Versiyon |
-|-----------|----------|
-| React | 18 |
-| TypeScript | 5 |
-| Vite | 5 |
-| Tailwind CSS | 3 |
-| shadcn/ui | - |
-| React Router | 6 |
-| TanStack Query | 5 |
+---
 
-## Kurulum ve Çalıştırma
+## Overview
+
+A modern, fully responsive corporate website built for **Demircioğlu Güvenli Taşıma**, a professional moving and transport company. The site is designed with performance, accessibility, and user experience at its core.
+
+## Features
+
+- Fully responsive layout across all screen sizes
+- Hero, Services, About, Why Choose Us, and Contact sections
+- Floating WhatsApp live contact button
+- Parallax tilt effects for interactive UI elements
+- Smooth scroll and section-based navigation
+
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React 18 | UI framework |
+| TypeScript 5 | Type safety |
+| Vite 5 | Build tool & dev server |
+| Tailwind CSS 3 | Utility-first styling |
+| shadcn/ui | Accessible component library |
+| React Router 6 | Client-side routing |
+| TanStack Query 5 | Server state management |
+
+## Getting Started
 
 ```bash
-# Bağımlılıkları yükle
+# Install dependencies
 npm install
 
-# Geliştirme sunucusunu başlat
+# Start development server
 npm run dev
 
-# Production build al
+# Build for production
 npm run build
+
+# Preview production build
+npm run preview
 ```
 
-## Proje Yapısı
+## Project Structure
 
 ```
 src/
 ├── components/
-│   ├── ui/              # shadcn/ui bileşenleri
+│   ├── ui/                    # shadcn/ui base components
 │   ├── Header.tsx
 │   ├── HeroSection.tsx
 │   ├── ServicesSection.tsx
