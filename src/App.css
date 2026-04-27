@@ -1,0 +1,26 @@
+
+
+a, .menu__link {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  line-height: 2;
+}
+
+.menu__link::before {
+  content: '';
+  width: 0;
+  height: 2px;
+  border-radius: 2px;
+  background-color: currentColor;
+  position: absolute;
+  bottom: -0.25rem;
+  left: 0;
+  transition: width 0.4s ease;
+}
+
+.menu__link:hover::before {
+  width: 100%;
+}
+
+
