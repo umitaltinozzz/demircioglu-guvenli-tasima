@@ -18,6 +18,10 @@ A modern, responsive corporate website for Demircioglu Guvenli Tasima, a profess
 
 Live site: [https://www.halisdemircioglunakliyat.com/](https://www.halisdemircioglunakliyat.com/)
 
+## Project Status
+
+Completed production website. The public repository is kept as a portfolio and reference version, with maintenance updates only when needed.
+
 ## Features
 
 - **Responsive landing experience** - Polished layout across mobile, tablet, and desktop
